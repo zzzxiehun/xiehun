@@ -1,0 +1,83 @@
+@charset "utf-8";
+/*版面設定且置中*/
+#contents{
+    width: 980px;
+    margin: 0 auto;
+    background-color: rgba(128, 252, 211,0.7);
+}
+
+/*視窗背景色設定*/
+body {
+    background-color: rgb(118, 217, 235);
+    background-image: url(../img/fox.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 200px 200px;
+    background-attachment: fixed;
+}
+
+/*連結顏色設定*/
+a {
+    color: rgb(228, 47, 204);
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+
+
+/*頁面標題設定*/
+h1{
+    background-color: #6fbb9a;
+    color: #fff;
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid rgb(102, 51, 153);
+    text-align: center;
+    font-size: 300%;
+    line-height: 1;
+    border-radius: 50%;
+    box-shadow: 3px 3px 25px #000;
+    text-shadow: 1px 1px 10px #000;
+}
+
+/*次標題設定*/
+h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #cf1537;
+    border-left: 10px solid #de5679;
+    color: peru;
+}
+
+/*小標題設定*/
+.h{
+    padding: 10px;
+    background-color: rgb(210, 176, 241);
+    color: rgb(102, 3, 102);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #2907be inset;
+}
+
+/*內容區塊邊框設定*/
+
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+
+
+/*圓形圖片設定*/
+.photo{
+    width: 480px;
+    height: 320px;
+}
