@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+}
+
+.yea {
+    width: 80%;
+    background-color: aqua;
+    margin: 0px auto;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    font-size: 150%;
+}
+
+header {
+    height: 350px;
+    background-color: yellow;
+}
+
+nav {
+    background-color: thistle;
+}
+
+main {
+    background-color: #6cf;
+}
+
+
+
+.me {
+    text-align: center;
+    font-size: 120%;
+
+}
+
+.font {
+    font-size: 2em;
+}

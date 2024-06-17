@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fixed</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    <style>
+        body{
+            margin: 0px;
+        }
+        #container{
+            width: 980px;
+            margin: 0px auto;
+        }
+        #header{
+            height: 150px;
+            background-color: blueviolet;
+        }
+        nav{
+            height: 150px;
+            background-color: aqua;
+        }
+        main{
+            min-height: 750px;
+            background-color: rgb(247, 127, 42);
+        }
+        footer{
+            height: 150px;
+            background-color: #6cf;
+        }
+        #up{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid rgb(223, 107, 107) ;
+            padding: 10px;
+            text-align: center;
+            line-height: 2.5em;
+            position: fixed;
+            right: 350px;
+            bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+        <div id="header"></div>
+        <nav></nav>
+        <main></main>
+        <footer></footer>
+        <a href="#header">
+            <div id="up">
+            <i class="fa-solid fa-arrow-up fa-flip fa-2xl "></i>
+            </div>
+        </a>
+</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    <style>
+        body{
+            margin: 0px;
+        }
+        #container{
+            width: 980px;
+            margin: 0px auto;
+            position: relative;
+        }
+        header{
+            height: 150px;
+            background-color: blueviolet;
+            position: relative;
+        }
+        nav{
+            height: 150px;
+            background-color: aqua;
+        }
+        main{
+            min-height: 750px;
+            background-color: rgb(247, 127, 42);
+        }
+        footer{
+            height: 150px;
+            background-color: #6cf;
+        }
+        #up{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: aquamarine;
+            border: 2px solid rgb(223, 107, 107) ;
+            padding: 10px;
+            text-align: center;
+            line-height: 2.5em;
+            position: absolute;
+            right: -35px;
+            bottom: 110px;
+            z-index: -1;
+        }
+        .hand{
+            font-size: 4em;
+            position: absolute;
+            right: 0px;
+            bottom: 35px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+        <header><i class="fa-solid fa-hand fa-xl hand"></i></header>
+        <nav></nav>
+        <main></main>
+        <footer></footer>
+        <div id="up">
+        <i class="fa-solid fa-arrow-up fa-flip fa-2xl "></i>
+        </div>
+</div>
+</body>
+</html>

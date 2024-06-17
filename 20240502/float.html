@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float 排版</title>
+    <style>
+        #container{
+            width: 980px;
+            margin: auto;
+            background-color: #6cf;
+        }
+        .inner{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(231, 87, 87);
+            border: 1px solid black;
+            font-size: 6em;
+            text-align: center;
+            line-height: 2em;
+        }
+        .left{
+            float: left;
+        }
+        .clear{
+            clear: both;
+        }
+        .right{
+            float: right;
+        }
+        .middle{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="inner middle">1</div>
+        <div class="inner left">2</div>
+        <div class="inner right">3</div>
+        <div class="inner clear middle">4</div>
+    </div>
+</body>
+</html> 

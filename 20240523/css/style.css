@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+
+#wrapper{
+    width: 80%;
+    margin: 0px auto;
+}
+
+header{
+    height: 250px;
+    background-color: #6cf;
+}
+
+nav{
+    height: 100px;
+    background-color: blue;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    width: 20%;
+
+    background-color: blueviolet;
+}
+
+section{
+    width: 80%;
+
+    background-color: brown;
+}
+
+.sub-section{
+    min-height: 300px;
+    margin: 10px;
+    background-color: aquamarine;
+    width: 99%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+figure{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+footer{
+    height: 100px;
+    background-color: chocolate;
+}

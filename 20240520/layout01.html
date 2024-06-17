@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用DIV來排版</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #container {
+            width: 80%;
+            background-color: #6cf;
+            margin: 0px auto;
+        }
+
+        #header {
+            height: 300px;
+            background-color: blueviolet;
+        }
+
+        #nav {
+            height: 200px;
+            background-color: yellow;
+        }
+
+        #aside {
+            height: 800px;
+            width: 20%;
+            float: left;
+            background-color: aqua;
+        }
+
+        #section {
+            min-height: 800px;
+            width: 80%;
+            float: right;
+            background-color: #dd1a1a;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        #footer {
+            height: 200px;
+            clear: both;
+            background-color: cornflowerblue;
+        }
+
+        .picture {
+            width: 300px;
+            height: 200px;
+            background-color: brown;
+            background-image: url(fox.jpg);
+            background-size: cover;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            margin: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header"></div>
+        <div id="nav"></div>
+        <div id="main">
+            <div id="aside"></div>
+            <div id="section">
+                <div class="item">
+                    <div class="picture"></div>
+                    <h1>fox</h1>
+                    <p>一隻狐狸</p>
+                </div>
+                <div class="item">
+                    <div class="picture"></div>
+                    <h1>fox</h1>
+                    <p>一隻狐狸</p>
+                </div>
+                <div class="item">
+                    <div class="picture"></div>
+                    <h1>fox</h1>
+                    <p>一隻狐狸</p>
+                </div>
+                <div class="item">
+                    <div class="picture"></div>
+                    <h1>fox</h1>
+                    <p>一隻狐狸</p>
+                </div>
+                <div class="item">
+                    <div class="picture"></div>
+                    <h1>fox</h1>
+                    <p>一隻狐狸</p>
+                </div>
+                <div class="item">
+                    <div class="picture"></div>
+                    <h1>fox</h1>
+                    <p>一隻狐狸</p>
+                </div>
+                <div class="item">
+                    <div class="picture"></div>
+                    <h1>fox</h1>
+                    <p>一隻狐狸</p>
+                </div>
+                <div class="item">
+                    <div class="picture"></div>
+                    <h1>fox</h1>
+                    <p>一隻狐狸</p>
+                </div>
+                <div class="item">
+                    <div class="picture"></div>
+                    <h1>fox</h1>
+                    <p>一隻狐狸</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+
+</html>
